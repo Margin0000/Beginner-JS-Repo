@@ -1,3 +1,23 @@
+// function
+
+function hello() {
+    console.log('Hello')
+}
+hello()
+
+const addition = function(num1, num2) {
+    return num1 + num2
+}
+const addition2 = (num1, num2) => num1 + num2
+
+const total = addition(2, 3)
+console.log('total >', total) 
+
+const total2 = addition2(4, 5)
+console.log('total2 >', total2)
+
+
+
 // conditions
 
 if (10 > 5) {
