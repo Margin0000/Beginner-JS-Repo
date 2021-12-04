@@ -1,3 +1,43 @@
+// conditions
+
+if (10 > 5) {
+    console.log('Yes 1')
+} else if (20 > 5) {
+    console.log('Yes 2')
+}
+
+if (10 > 5) {
+    console.log('Yes 1.1')
+}
+if (20 > 5) {
+    console.log('Yes 2.1')
+}
+
+const age = 20
+if (age > 60) {
+    console.log('Old')
+} else if (age < 20) {
+    console.log('Young')
+} else {
+    console.log('Middle age')
+}
+
+const brand = 'Lada'
+
+switch(brand) {
+    case 'BMW':
+        console.log('BMW')
+        break
+    case 'Tesla':
+        console.log('Tesla')
+        break
+    default:
+        console.log('Not listed')
+}
+
+const myCar = 'BMW' === 'Audi' ? 'You are lucky' : 'You are not lucky'
+console.log(myCar)
+
 // string, number, boolean, undefined, null, object, BigInt, Sympol 
 
 const name = 'Oleg'
