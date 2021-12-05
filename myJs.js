@@ -1,3 +1,11 @@
+// array
+
+const students = ['Alex', 'Izi', 'George']
+console.log(Array.isArray(students)) // instead of typeOf()
+console.log('student[0] >>>', students[0])
+console.log(students.includes('George')) // ture/false
+console.log(students.indexOf('George')) // index/-1
+
 // function
 
 function hello() {
