@@ -1,3 +1,28 @@
+// object
+
+const newCar = {
+    brand: 'BMW',
+    year: 2022,
+    color: 'red',
+    options: ['diesel', 'sport seats'],
+    inStock: true,
+    drive: function() {
+        return `${this.brand} is rock!`
+    },
+    drive2: () => {
+        return `This car is rock!`
+    },
+    drive3() {
+        return `${this.brand} is rock!`
+    },
+}
+
+console.log('car >>>', newCar)
+console.log(newCar.year)
+console.log(newCar['year'])
+console.log(newCar.model)
+console.log(newCar.drive3())
+
 // array
 
 const students = ['Alex', 'Izi', 'George']
