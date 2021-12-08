@@ -1,3 +1,22 @@
+// loop
+
+const products = ['mushroom', 'potato', 'orange', 'carrot']
+
+products.forEach(function(item) {
+    console.log('product >>>', item)
+})
+
+const logIngredients = function(ingredient, index) {
+    if (index === (products.length -1) ) {
+        console.log('the last ingredient >>>', ingredient)
+    }
+}
+
+products.forEach(logIngredients)
+
+console.log('');
+
+
 // object
 
 const newCar = {
